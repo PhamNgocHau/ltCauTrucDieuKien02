@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let dienTieuThu = parseInt(prompt('Dien nang tieu thu: '));
+    let dinhMuc50 = 1.678 * dienTieuThu;
+    let dinhMuc100 = 1.734 * dienTieuThu;
+    let dinhMuc200 = 2.014 * dienTieuThu;
+    let dinhMuc300 = 2.536 * dienTieuThu;
+    let dinhMuc400 = 2.834 * dienTieuThu;
+    if(dienTieuThu < 50){
+        document.write('Gia Tien dien nang tieu thu < 50 so dien: '+dinhMuc50);
+    }else if(dienTieuThu < 100){
+        document.write('Gia Tien dien nang tieu thu < 100 so dien: '+dinhMuc100);
+    }else if(dienTieuThu < 200){
+        document.write('Gia Tien dien nang tieu thu < 200 so dien: '+dinhMuc200);
+    }else if(dienTieuThu < 300){
+        document.write('Gia Tien dien nang tieu thu < 300 so dien: '+dinhMuc300);
+    }else if(dienTieuThu < 400){
+        document.write('Gia Tien dien nang tieu thu < 400 so dien: '+dinhMuc400);
+    }else {
+        let thanhTien = 2.927 * dienTieuThu;
+        document.write('Gia Tien dien nang tieu thu > 400 so dien: '+thanhTien);
+    }
+</script>
+</body>
+</html>
